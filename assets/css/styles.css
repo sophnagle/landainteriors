@@ -2,6 +2,14 @@
     display: none;
 }
 
+h1, h2, h3 {
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 75px;
+}
 
 @media (min-width: 992px) { 
 
