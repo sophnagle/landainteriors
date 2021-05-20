@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar container-fluid">
+        <nav class="navbar navbar container-fluid fixed-top">
             <!-- Navbar brand -->
             <a class="navbar-brand" href="#">L & A Interiors</a>
             <!-- Collapse button for small screens -->
@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                 <!-- Links -->
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <li class="nav-item active justify-content-end" data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="nav-link" href="#" aria-current="page">Home</a>
                     </li>
                     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
@@ -54,16 +54,21 @@
     </header>
 
     <!-- Landing page -->
-    <div>
-        <h1>L & A Interiors</h1>
-        <h2>Commercial refurbishments completed to the highest standard.</h2>
-        <p>We'll get the job done!</p>
-        <a href="mailto:accounts@landainteriorsltd.com" class="fa fa-envelope-open icon">
+    <div class="row">
+        <div class="col">
+            <img src="assets/images/Ceiling.jpg" alt="L & A Interiors" id="landingPage">
+            <div class="callToAction">
+                <h1>L & A Interiors</h1>
+                <h2>Commercial refurbishments completed to the highest standard.</h2>
+                <p>We'll get the job done!</p>
+                <a href="mailto:accounts@landainteriorsltd.com" class="fa fa-envelope-open icon">
                     <span>Email</span>
                 </a>
                 <a href="" class="fa fa-phone icon">
                     <span>Phone: Lee Howes</span>
                 </a>
+            </div>
+        </div>  
     </div>
     
     <!-- About us -->
@@ -107,18 +112,18 @@
 
     <!-- Footer -->
     <footer>
-        <img src="assets/images/LandA.jpg" alt="L & A Interiors Logo">
         <div class="row">
+            <!-- Logo -->
             <div class="col-sm-12 col-md-6 col-lg-4">
-                <img src="assets/images/LandA.jpg" alt="L & A Interiors Logo">
+                <img src="assets/images/LandA.jpg" alt="L & A Interiors Logo" class="logo">
             </div>
             <!-- Address and contact information-->
             <div class="col-sm-12 col-md-6 col-lg-4">
                 <a href="mailto:accounts@landainteriorsltd.com" class="fa fa-envelope-open icon">
-                    <span>Email</span>
+                    <span>accounts@landainteriorsltd.com</span>
                 </a><br>
                 <a href="" class="fa fa-phone icon">
-                    <span>Phone: Lee Howes</span>
+                    <span>Lee Howes</span>
                 </a><br>
                 <address>
                     31a Downton Road<br>

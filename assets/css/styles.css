@@ -1,5 +1,51 @@
+body {
+    color: #555;
+}
+
 .largeMenu {
     display: none;
+}
+
+.navbar-brand {
+    color: inherit;
+}
+
+.navbar-brand:hover{
+    color: #555;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.nav-link {
+    color: inherit;
+}
+
+.nav-link:hover {
+    color: green;
+}
+
+a:hover {
+    color: green;
+}
+
+.callToAction {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    height: 100vh;
+}
+
+#landingPage {
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
@@ -9,6 +55,31 @@ h1, h2, h3 {
 hr {
     margin: auto;
     width: 75px;
+}
+
+
+.logo {
+    width: 100vw;
+}
+
+footer a {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    color: inherit;
+}
+
+
+
+/*  Medium devices (Tablets, 768px and up) */ 
+
+@media (min-width: 768px) { 
+
+.logo {
+    width: 100%;
+}
+
 }
 
 @media (min-width: 992px) { 
@@ -30,8 +101,8 @@ hr {
         font-size: 125%;
     }
 
-    .largeMenu a:hover {
-        color: #555;
+    #landingPage {
+        width: 100vw;
     }
 
 }
