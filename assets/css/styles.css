@@ -1,0 +1,29 @@
+.largeMenu {
+    display: none;
+}
+
+
+@media (min-width: 992px) { 
+
+
+     .navbar button {
+        display: none;
+    }
+    
+    .largeMenu {
+            display: inline;
+    }
+
+    .largeMenu li {
+        list-style-type: none;
+        float: left;
+        padding: 0px 30px;
+        font-weight: 500;
+        font-size: 125%;
+    }
+
+    .largeMenu a:hover {
+        color: #555;
+    }
+
+}
